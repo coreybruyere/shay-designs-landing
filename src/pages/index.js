@@ -7,10 +7,35 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <SEO
+      title="Home"
+      keywords={[
+        `Shay Designs`,
+        `Jewelry`,
+        `Handmade`,
+        `Personalize`,
+        `Girly-Chic`,
+        `Shay Designs Personalized Jewelry`,
+      ]}
+    />
+    <h1>Shay Designs has completely moved to Etsy!</h1>
+    <p>Please visit our Etsy shop below.</p>
+
+    <h2>Top Collections</h2>
+    <ul>
+      <li>List items here</li>
+    </ul>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
+    </footer>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
