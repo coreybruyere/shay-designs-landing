@@ -18,15 +18,18 @@ const IndexPage = () => (
         `Shay Designs Personalized Jewelry`,
       ]}
     />
-    <h1>Shay Designs has completely moved to Etsy!</h1>
-    <p>Please visit our Etsy shop below.</p>
+    <p style={{ maxWidth: "620px", margin: "0 auto", lineHeight: 1.5 }}>
+      Please visit the{" "}
+      <a href="https://www.etsy.com/shop/ShayDesignsJewelry">Etsy store</a> for
+      all the same girly-chic, personalized jewelry that was once here!
+    </p>
 
-    <h2>Top Collections</h2>
+    {/* <h2>Top Collections</h2>
     <ul>
       <li>List items here</li>
-    </ul>
+    </ul> */}
 
-    <footer>
+    {/* <footer>
       <ul>
         <li>
           <a href="#">Contact</a>
@@ -38,8 +41,7 @@ const IndexPage = () => (
     </footer>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    </div> */}
   </Layout>
 )
 

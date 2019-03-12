@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: "Martel", serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -615,8 +615,9 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
+html,
+body {
+  font-size: 100%;
+  font-family: "Martel";
+  font-family: "Martel", serif !important;
 }
